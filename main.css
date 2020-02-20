@@ -1,0 +1,83 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin-top: 70px;
+
+}
+
+.max-viewport {
+    min-height: 100vh;
+}
+
+#navbar {
+    background-color: black;
+}
+
+a {
+    color: black;
+}
+
+.imgHome {
+    width: 40%;
+    height: 40%;
+    margin-top: 8em;
+}
+
+.textHome {
+    margin-top: 15em;
+    animation: showup 50s infinite;
+}
+
+.innner-text {
+    color: black;
+}
+
+.contact {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.mail {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: black;
+}
+
+
+#banner,
+#cv,
+#qualities,
+#portfolio,
+#social  {
+    background: linear-gradient(
+        rgba(241, 238, 236, 0.1),rgba(243, 240, 239, 0.1)),
+        url(images/imgBack.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+#portfolio {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+li {
+    animation: showup 50s infinite;
+}
+
+img {
+    animation: showup 50s infinite;
+}
+
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
