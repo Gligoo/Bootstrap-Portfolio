@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <title>Portfolio</title>
   
@@ -73,7 +74,7 @@
     <!--Qualities section-->
     <section id="qualities" class="py-5">
         <div class="container">
-            <div class="row align-items-center text-center">
+            <div class="row align-items-center text-center" data-aos="fade-right" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
                 <div class="col-sm-12 col-md-6 col-lg-4  my-3 d-flex">
                         <div class="innner-text text-white">
                             <h2 class="my-3">
@@ -113,7 +114,7 @@
         <div class="container">
             <div class="contact row text-center align-items-center justify-content-center">
                 <div class="col-sm-6 my-2">
-                    <a href="#" class='btn btn-lg btn-outline-warning text-uppercase'>
+                    <a href="https://drive.google.com/file/d/1FPkc1NQQQqKA6UD9yaG1T8n3o4jHiiey/view?usp=sharing" target="_blank" class='btn btn-lg btn-outline-warning text-uppercase'>
                         Mon CV
                     </a>
                 </div>
@@ -126,15 +127,19 @@
     <section id="portfolio" class="p-5 bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 my-3">
-                    <img src="images/bitumeLogo.png" class="img-fluid rounded"alt="picture">
+                <div class=" col-sm-6 my-3">
+                    <a href="http://bitume.website/" target="_blank">
+                       <img src="images/bitumeLogo.png" class="img-fluid rounded"alt="picture">
+                    </a>
                     <h1 class="my-3">Bitume</h1>
                     <p>Mon rôle : Développeur Réact et Git Master.</p>
                     <p>Technos : Back en Symfony et Front en Réact</p>
                     <p class="text-white">Bitume a été imaginée comme une plateforme permettant d’accéder à des points sonores dans l’environnement urbain. Par l’utilisation de la géolocalisation, les utilisateurs ont accès à une map. Lorsqu’ils déambulent dans l’espace urbain, ils peuvent trouver des points d’écoutes et continuer leurs chemins en écoutant la trame sonore qu’ils ont découvert. Ils peuvent également  avoir accès aux informations des créateurs et peuvent se renseigner sur eux.</p>
                 </div>
                 <div class="col-sm-6 my-3">
-                        <img src="images/oquizz.png" class=" img-fluid rounded"alt="picture">
+                        <a href="http://bitume.website/" target="_blank">
+                            <img src="images/oquizz.png" class=" img-fluid rounded"alt="picture">
+                        <a/>
                         <h1 class="my-3">O'Quiz</h1>
                         <p>Techno : Laravel</p>
                         <p class="text-white">Plateforme de quizzs. Inscrivez vous, connectez-vous et amusez-vous :D. Disponible via Github</p>
@@ -165,5 +170,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>

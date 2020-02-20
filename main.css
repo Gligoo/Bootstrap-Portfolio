@@ -20,6 +20,7 @@ a {
     width: 40%;
     height: 40%;
     margin-top: 8em;
+    animation: showup 50s infinite;
 }
 
 .textHome {
@@ -67,12 +68,9 @@ a {
 }
 
 li {
-    animation: showup 50s infinite;
+    animation: showup 50s ;
 }
 
-img {
-    animation: showup 50s infinite;
-}
 
 
 @keyframes showup {
@@ -81,3 +79,5 @@ img {
     80% {opacity:1;}
     100% {opacity:0;}
 }
+
+
