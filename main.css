@@ -19,13 +19,13 @@ a {
 .imgHome {
     width: 40%;
     height: 40%;
-    margin-top: 8em;
-    animation: showup 50s infinite;
+    animation: showup 50s ;
+    
 }
 
 .textHome {
     margin-top: 15em;
-    animation: showup 50s infinite;
+    animation: showup 50s ;
 }
 
 .innner-text {
